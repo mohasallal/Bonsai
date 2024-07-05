@@ -1,0 +1,75 @@
+* {
+  color: #4c4d5f;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  width: 100dvw;
+  min-height: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.green {
+  color: #00b289;
+  fill: #00b289;
+}
+
+.BtnOne {
+  background-color: white;
+  color: #00b289;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  border: 1px solid #00b289;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.BtnOne:hover {
+  background-color: #00b289;
+  color: white;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.BtnTwo {
+  background-color: #00b289;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.BtnTwo:hover {
+  background-color: #009b77;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
+
+.expand__btn {
+  fill: #4c4d5f;
+}
+
+.blueSquare{
+    position: absolute;
+    top: -300px;
+    right: -100px;
+    z-index: -1;
+    rotate: 45deg;
+    width: 1400px;
+    height: 1400px;
+    background-color: #75c1ff1a;
+}
