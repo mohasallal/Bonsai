@@ -135,3 +135,43 @@ main {
   transition-duration: 0.2s;
   transition-timing-function: ease-in-out;
 }
+
+.helping {
+  margin: 100px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  min-width: 800px;
+  height: 150px;
+  background-color: #75c1ff1a;
+}
+
+.helping span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.helping button {
+  width: 150px;
+  height: 50px;
+}
+
+.questions {
+  min-width: 800px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.questions p {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+.questions p:hover > span {
+  color: #009b77;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+}
