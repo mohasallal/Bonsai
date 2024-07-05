@@ -5,6 +5,8 @@ nav {
   height: 80px;
   z-index: 90;
   margin-bottom: 200px;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 
 .logo {

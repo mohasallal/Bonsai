@@ -1,0 +1,137 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Container {
+  width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Plans {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.offer {
+  position: absolute;
+  top: -40px;
+  right: -20px;
+}
+
+.cards__Container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  height: 800px;
+  background-color: #ffffff;
+  padding: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.badge {
+  color: white;
+  background-color: #009b77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  position: absolute;
+  top: 50px;
+  right: -130px;
+  rotate: 45deg;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.cards h3 {
+  font-size: 1.5em;
+}
+
+.cards p {
+  font-size: 0.8em;
+}
+
+.Price {
+  padding-left: 20px;
+  font-size: 3.5em;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  border-bottom: 2px solid #009b77;
+}
+
+.cards span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.BtnCard {
+  display: block;
+  align-self: flex-end;
+  margin: 0 auto;
+  margin-top: auto;
+  bottom: 0px;
+  right: 0;
+  width: 90%;
+  height: 60px;
+}
+
+.Adds__Title {
+  margin: 130px 0 20px 0;
+  font-size: 2em;
+}
+
+.add {
+  min-width: 60%;
+  height: 80px;
+  background-color: #ffffff;
+  box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
+  margin: 15px 0;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Adds__price {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.more {
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.more:hover > svg {
+  padding-left: 5px;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+}
