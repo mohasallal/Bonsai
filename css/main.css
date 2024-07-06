@@ -1,5 +1,5 @@
 main {
-  margin: 250px 0 0 0;
+  margin: 200px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,8 +57,8 @@ main {
   height: 40px;
   width: 100%;
   position: absolute;
-  top: 50px;
-  right: -110px;
+  top: 7.5%;
+  right: -30%;
   rotate: 45deg;
   font-weight: bold;
   font-size: 1.25em;
@@ -104,7 +104,7 @@ main {
 }
 
 .add {
-  max-width: 80%;
+  width: 900px;
   height: 80px;
   background-color: #ffffff;
   box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -143,7 +143,7 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 25px;
-  max-width: 800px;
+  width: 800px;
   height: 150px;
   background-color: #75c1ff1a;
 }
@@ -159,7 +159,7 @@ main {
 }
 
 .questions {
-  max-width: 800px;
+  width: 800px;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -187,8 +187,15 @@ main {
   display: block;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
+  .cards__Container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 965px) {
   main {
+    margin-top: 100px;
     width: 100%;
   }
   .cards__Container {
@@ -209,10 +216,11 @@ main {
   }
 
   .add {
-    width: 100%;
+    width: 80%;
     height: auto;
     flex-direction: column;
     text-align: center;
+    font-size: 0.75em;
   }
 
   .Adds__price {
@@ -239,6 +247,6 @@ main {
 
   .questions {
     width: 90%;
-    font-size: 1em;
+    font-size: 1.25em;
   }
 }
