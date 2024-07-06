@@ -89,3 +89,15 @@ body {
   top: 0px;
   left: 0px;
 }
+
+@media screen and (max-width: 950px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    width: 100dvw;
+  }
+
+  .blueSquare {
+    display: none;
+  }
+}

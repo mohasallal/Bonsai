@@ -1,23 +1,25 @@
-const OpenBtn = document.querySelector("#OpenBtn");
-const CloseBtn = document.querySelector("#CloseBtn");
-const Menu = document.getElementById("Menu");
-const window = window.innerWidth;
+const p1 = document.getElementById("p1");
+const Div1 = document.getElementById("Div1");
+const p2 = document.getElementById("p2");
+const Div2 = document.getElementById("Div2");
+const p3 = document.getElementById("p3");
+const Div3 = document.getElementById("Div3");
+const p4 = document.getElementById("p4");
+const Div4 = document.getElementById("Div4");
 
-OpenBtn.addEventListener("click", () => {
-  Menu.style.display = "flex";
-  Menu.style.transform = "translateX(0)";
-  Menu.style.transition = "transform 0.25s ease-in-out";
-});
+function toggleVisibility(p, div) {
+  p.addEventListener("click", () => {
+    if (div.classList.contains("show")) {
+      div.classList.remove("show");
+    } else {
+      div.classList.add("show");
+    }
+    // Rotate the expand button
+    p.querySelector(".expand__btn").classList.toggle("rotate");
+  });
+}
 
-CloseBtn.addEventListener("click", () => {
-  Menu.style.transform = "translateX(100vw)";
-  Menu.style.transition = "transform 0.25s ease-in-out";
-
-  Menu.addEventListener(
-    "transitionend",
-    () => {
-      Menu.style.display = "none";
-    },
-    { once: true }
-  );
-});
+toggleVisibility(p1, Div1);
+toggleVisibility(p2, Div2);
+toggleVisibility(p3, Div3);
+toggleVisibility(p4, Div4);

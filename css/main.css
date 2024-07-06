@@ -1,4 +1,5 @@
 main {
+  margin: 250px 0 0 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,8 +39,8 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 330px;
-  height: 800px;
+  width: 280px;
+  height: 750px;
   background-color: #ffffff;
   padding: 40px;
   border: 1px solid rgba(0, 0, 0, 0.25);
@@ -57,7 +58,7 @@ main {
   width: 100%;
   position: absolute;
   top: 50px;
-  right: -130px;
+  right: -110px;
   rotate: 45deg;
   font-weight: bold;
   font-size: 1.25em;
@@ -103,7 +104,7 @@ main {
 }
 
 .add {
-  min-width: 60%;
+  max-width: 80%;
   height: 80px;
   background-color: #ffffff;
   box-shadow: 0.25rem 0.25rem 0.75rem rgba(0, 0, 0, 0.1);
@@ -142,7 +143,7 @@ main {
   align-items: center;
   justify-content: space-between;
   padding: 25px;
-  min-width: 800px;
+  max-width: 800px;
   height: 150px;
   background-color: #75c1ff1a;
 }
@@ -158,7 +159,7 @@ main {
 }
 
 .questions {
-  min-width: 800px;
+  max-width: 800px;
   font-size: 1.5em;
   font-weight: bold;
 }
@@ -174,4 +175,70 @@ main {
   color: #009b77;
   transition-duration: 0.25s;
   transition-timing-function: ease-out;
+}
+
+.Infos__div {
+  display: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.show {
+  display: block;
+}
+
+@media screen and (max-width: 950px) {
+  main {
+    width: 100%;
+  }
+  .cards__Container {
+    flex-direction: column;
+  }
+  .Container {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin: 0 0 100px;
+  }
+
+  .Adds__Title {
+    text-align: center;
+    font-size: 1.25em;
+  }
+
+  .add {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .Adds__price {
+    padding: 0;
+  }
+
+  .Adds__price {
+    font-size: 1.75em;
+  }
+
+  .more {
+    justify-content: center;
+  }
+
+  .helping {
+    width: 80%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .helping span {
+    font-size: 1.5rem;
+  }
+
+  .questions {
+    width: 90%;
+    font-size: 1em;
+  }
 }

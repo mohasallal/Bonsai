@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/components.css">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <title>bonsai</title>
   </head>
   <body>
@@ -177,7 +178,7 @@
         <div class="add">
           <div>
             <h3>Collaborators</h3>
-          <p>Invite other users to specific projects for limited access and functionality.</p>
+            <p>Invite other users to specific projects for limited access and functionality.</p>
           </div>
           <span class="Adds__price">FREE</span>
         </div>
@@ -197,19 +198,116 @@
           </div>
           <span class="Adds__price">$10<br><span class="xsmall">/month</span></span>
         </div>
-       <div class="helping blue">
+       <div class="helping">
         <span>It’s <span class="green">your</span> business.<br>
           We’re here to help it grow.</span> <button class="BtnTwo">START FREE</button>
        </div>
        <h2 class="green Adds__Title">Frequently Asked Questions</h2> 
        <div class="questions">
-        <p> <span>How does the free trial work?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
-        <p> <span>Can I change plans anytime?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
-        <p> <span>How do I pause my Bonsai subscription?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
-        <p> <span>What is your refund policy?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
+        <p class="click__p" id="p1" data-target="Div1"> 
+          <span>How does the free trial work?</span>
+          <svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+          </svg></p>
+        <div class="Infos__div" id="Div1">
+          <p>When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or <br>
+           Workflow Plus Features! You will need to enter your credit card information to begin your trial, but don't <br>
+           worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during <br>
+           the trial period, you can do so through your Subscriptions Settings Page.</p>
+        </div>
+        <p class="click__p" id="p2" data-target="Div2"> <span>Can I change plans anytime?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
+        <div class="Infos__div" id="Div2">
+          <p>Yes, you can from within your account. If you have already subscribed to a plan, or want to downgrade or <br>
+             upgrade your current one, you can do this by going to your "Settings" and "Subscription"</p>
+        </div>
+        <p class="click__p" id="p3" data-target="Div3"> <span>How do I pause my Bonsai subscription?</span>
+          <svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path>
+          </svg></p>
+        <div class="Infos__div" id="Div3">
+          <p>We totally understand that with the nature of freelancing, work ebbs and flows so you might not always <br>
+             need your Bonsai subscription to remain active! The good news is that you can cancel or pause your <br>
+             monthly subscription at any time without penalty. Once cancelled, you'll be able to continue logging in to <br>
+             access all your documents and even continue to use our free features, like Time Tracking! In order to cancel <br>
+             your subscription, login to your Bonsai account.</p>
+        </div>
+        <p class="click__p" id="p4" data-target="Div4"> <span>What is your refund policy?</span><svg class="expand__btn" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.293 9.293 12 13.586 7.707 9.293l-1.414 1.414L12 16.414l5.707-5.707z"></path></svg></p>
+        <div class="Infos__div" id="Div4">
+          <p>If you contact us within 2 weeks of being charged for your subscription, we will be happy to issue a refund <br>
+             for you!Beyond those 2 weeks, you will need to cancel or modify the subscription from the Subscriptions <br> 
+             Tab in Settings to avoid future charges, but refunds will not be issued. This applies to both monthly and <br>
+             annual plans.</p>
+        </div>
         
        </div>
     </main>
-        <script src="./main.js"></script>
+    <footer>
+      <div>
+        <h3 class="title">PRODUCT</h3>
+        <div class="section__footer">
+          <p>Proposals</p>
+          <p>Contracts</p>
+          <p>Invoicing</p>
+          <p>Client CRM</p>
+          <p>Time Tracking</p>
+          <p>Task Tracking</p>
+          <p>Forms</p>
+          <p>Accounting</p>
+          <p>Bonsai Tax</p>
+          <p>Bonsai Cash</p>
+        </div>
+        <div class="section__footer">
+          <p><a href="#" class="green">Pricing</a></p>
+          <p>Bonsai Reviews</p>
+</div>
+      </div>
+      <div>
+        <h3 class="title">FREE RESOURCES</h3>
+        <div class="section__footer">
+          <p>Proposals</p>
+          <p>Contracts</p>
+          <p>Invoicing</p>
+          <p>Client CRM</p>
+        </div>
+        <div class="section__footer">
+          <p>Time Tracking</p>
+          <p>Task Tracking</p>
+          <p>Forms</p>
+        </div>
+        <h4 class="sub__title">Templates</h4>
+        <div class="section__footer">
+          <p>Proposals</p>
+          <p>Contracts</p>
+          <p>Invoicing</p>
+          <p>Client CRM</p>
+          <p>Time Tracking</p>
+          <p>Task Tracking</p>
+          <p>Forms</p>
+          <p>Accounting</p>
+          <p>Bonsai Tax</p>
+        </div>
+      </div>
+      <div>
+        <h3 class="title">BONSAI</h3>
+        <div class="section__footer">
+          <p>Proposals</p>
+          <p>Contracts</p>
+          <p>Invoicing</p>
+          <p>Client CRM</p>
+          <p>Time Tracking</p>
+          <p>Task Tracking</p>
+          <p>Forms</p>
+        </div>
+        <div class="section__footer">
+          <p>Task Tracking</p>
+          <p>Forms</p>
+        </div>
+        <div class="section__footer">
+          <p>Task Tracking</p>
+          
+        </div>
+      </div>
+    </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
