@@ -201,6 +201,10 @@ main {
   .cards__Container {
     flex-direction: column;
   }
+  .cards {
+    width: 90%;
+  }
+
   .Container {
     width: 100%;
     flex-direction: column;
